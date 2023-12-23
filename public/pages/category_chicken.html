@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lunch.</title>
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <!-- BOOTSTRAP -->
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- JQUERY -->
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONT -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="/public/styles/style.css" />
+    <!-- CSS -->
+
+    <!-- SCRIPT -->
+    <script>
+      $(function () {
+        $(".navbarPlaceholder").load("/public/navbar/navbar.html");
+      });
+      $(function () {
+        $(".footerTemplate").load("/public/navbar/footer.html");
+      });
+    </script>
+    <!-- SCRIPT -->
+  </head>
+  <body>
+    <div class="navbarPlaceholder"></div>
+
+    <!-- NAVBAR CAT -->
+    <div class="px-md-5 bg-light">
+      <header
+        class="d-flex flex-wrap align-items-center justify-content-center py-lg-1 py-md-4"
+      >
+        <ul class="nav col-12 col-md-auto justify-content-center mb-md-0">
+          <li>
+            <a
+              href="/public/pages/category.html"
+              class="nav-link px-2 px-lg-4 link-dark navbar_menu"
+              >Burger</a
+            >
+          </li>
+          <li>
+            <a
+              href="/public/pages/category_chicken.html"
+              class="nav-link px-2 px-lg-4 link-dark navbar_menu"
+              >Chicken</a
+            >
+          </li>
+          <li>
+            <a
+              href="/public/pages/category_drinks.html"
+              class="nav-link px-2 px-lg-4 link-dark navbar_menu"
+              >Drinks</a
+            >
+          </li>
+        </ul>
+      </header>
+    </div>
+    <!-- NAVBAR CAT -->
+
+    <!-- MENU DISPLAY -->
+    <div class="container-fluid bg-light mt-2 shadow-sm w-100">
+      <div class="row mx-auto">
+        <div class="col-3 d-flex align-items-center justify-content-center">
+          <img
+            src="/public/assets/images/paket.png"
+            class="img-fluid"
+            alt="chicken"
+          />
+        </div>
+        <div class="col-9 py-3">
+          <h3>
+            <a
+              href="/public/pages/cart.html"
+              class="text-decoration-none text-dark"
+              >Lunch Chicken with Ice Tea</a
+            >
+          </h3>
+          <div class="row">
+            <div class="col">
+              <p id="paragraph" style="text-align: justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                quibusdam beatae eveniet, atque animi expedita quisquam nihil
+                ipsa omnis recusandae voluptatem earum accusantium mollitia cum
+                ipsam ab eligendi illum? Explicabo nihil sint pariatur omnis
+                molestiae velit repudiandae, consequuntur quasi veritatis. Error
+                laborum provident praesentium perspiciatis blanditiis
+                repellendus? Qui, debitis veniam!
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col d-flex justify-content-end">
+              <button class="btn btn-warning rounded-5 px-4">
+                <a
+                  href="/public/pages/cart.html"
+                  class="text-decoration-none text-dark fw-medium"
+                  >Buy Now</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-light mt-2 shadow-sm w-100">
+      <div class="row mx-auto">
+        <div class="col-3 d-flex align-items-center justify-content-center">
+          <img
+            src="/public/assets/images/paket 4.png"
+            class="img-fluid"
+            alt="chicken"
+          />
+        </div>
+        <div class="col-9 py-3">
+          <h3>
+            <a
+              href="/public/pages/cart.html"
+              class="text-decoration-none text-dark"
+              >Crispy Chicken Katsu</a
+            >
+          </h3>
+          <div class="row">
+            <div class="col">
+              <p id="paragraph" style="text-align: justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                quibusdam beatae eveniet, atque animi expedita quisquam nihil
+                ipsa omnis recusandae voluptatem earum accusantium mollitia cum
+                ipsam ab eligendi illum? Explicabo nihil sint pariatur omnis
+                molestiae velit repudiandae, consequuntur quasi veritatis. Error
+                laborum provident praesentium perspiciatis blanditiis
+                repellendus? Qui, debitis veniam!
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col d-flex justify-content-end">
+              <button class="btn btn-warning rounded-5 px-4">
+                <a
+                  href="/public/pages/cart.html"
+                  class="text-decoration-none text-dark fw-medium"
+                  >Buy Now</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-light mt-2 shadow-sm w-100">
+      <div class="row mx-auto">
+        <div class="col-3 d-flex align-items-center justify-content-center">
+          <img
+            src="/public/assets/images/paket 2.png"
+            class="img-fluid"
+            alt="chicken"
+          />
+        </div>
+        <div class="col-9 py-3">
+          <h3>
+            <a
+              href="/public/pages/cart.html"
+              class="text-decoration-none text-dark"
+              >Lunch Double Chicken</a
+            >
+          </h3>
+          <div class="row">
+            <div class="col">
+              <p id="paragraph" style="text-align: justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                quibusdam beatae eveniet, atque animi expedita quisquam nihil
+                ipsa omnis recusandae voluptatem earum accusantium mollitia cum
+                ipsam ab eligendi illum? Explicabo nihil sint pariatur omnis
+                molestiae velit repudiandae, consequuntur quasi veritatis. Error
+                laborum provident praesentium perspiciatis blanditiis
+                repellendus? Qui, debitis veniam!
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col d-flex justify-content-end">
+              <button class="btn btn-warning rounded-5 px-4">
+                <a
+                  href="/public/pages/cart.html"
+                  class="text-decoration-none text-dark fw-medium"
+                  >Buy Now</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MENU DISPLAY -->
+
+    <!-- FOOTER -->
+    <div class="footerTemplate"></div>
+    <!-- FOOTER -->
+  </body>
+</html>
