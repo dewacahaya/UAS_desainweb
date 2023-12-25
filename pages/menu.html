@@ -39,6 +39,17 @@
       $(function () {
         $(".footerTemplate").load("/navbar/footer.html");
       });
+
+      $(document).ready(function () {
+        $(".category__img").on({
+          mouseenter: function () {
+            $(this).css("background-color", "orange");
+          },
+          mouseleave: function () {
+            $(this).css("background-color", "#fff");
+          },
+        });
+      });
     </script>
     <!-- SCRIPT -->
   </head>
