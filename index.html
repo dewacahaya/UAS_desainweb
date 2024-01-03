@@ -31,6 +31,8 @@
     <link rel="stylesheet" href="/styles/style.css" />
     <!-- CSS -->
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- SCRIPT -->
     <script>
       $(function () {
@@ -46,7 +48,7 @@
     <div class="navbarPlaceholder"></div>
 
     <!-- BANNER -->
-    <div id="carouselExampleIndicators" class="carousel slide">
+    <div id="carouselExampleIndicators" class="carousel slide mt-3">
       <div class="carousel-indicators">
         <button
           type="button"
@@ -117,7 +119,11 @@
           href="/pages/menu.html"
           class="col text-center text-decoration-none link-dark mx-lg-3"
         >
-          <div class="category__img">
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+            class="category__img"
+          >
             <img
               src="/assets/images/pngwing 1.png"
               class="img-fluid"
@@ -131,7 +137,11 @@
           href="/pages/menu.html"
           class="col text-center text-decoration-none link-dark mx-lg-3"
         >
-          <div class="category__img">
+          <div
+            class="category__img"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
             <img
               src="/assets/images/pngwing 2.png"
               class="img-fluid"
@@ -145,7 +155,11 @@
           href="/pages/menu.html"
           class="col text-center text-decoration-none link-dark mx-lg-3"
         >
-          <div class="category__img">
+          <div
+            class="category__img"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
             <img
               src="/assets/images/pngwing 3.png"
               class="img-fluid"
@@ -159,7 +173,11 @@
           href="/pages/menu.html"
           class="col text-center text-decoration-none link-dark mx-lg-3"
         >
-          <div class="category__img">
+          <div
+            class="category__img"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
             <img
               src="/assets/images/pngwing 4.png"
               class="img-fluid"
@@ -196,5 +214,9 @@
     <!-- FOOTER -->
     <div class="footerTemplate"></div>
     <!-- FOOTER -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </html>
 </html>
