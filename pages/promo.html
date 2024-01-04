@@ -29,6 +29,7 @@
     <!-- FONT -->
     <!-- CSS -->
     <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- CSS -->
 
     <!-- SCRIPT -->
@@ -46,26 +47,29 @@
     <div class="navbarPlaceholder"></div>
 
     <!-- PROMO PAGE -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col mt-3 fw-bold fs-4 text-center">Beli Sekarang</div>
-      </div>
-      <div class="row">
-        <div class="col fw-bold fs-2 mb-3 text-center">Nikmati Promonya!</div>
-      </div>
-    </div>
-
-    <!-- BANNER PROMO -->
-    <div id="banner_promo" class="container-fluid">
-      <div class="row">
-        <div class="col-md-6">
-          <img src="/assets/images/promo1.png" class="img-fluid" />
+    <div data-aos="fade-up" data-aos-duration="2000">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col mt-3 fw-bold fs-4 text-center">Beli Sekarang</div>
         </div>
-        <div class="col-md-6 fw-semibold my-lg-auto">
-          <h1 class="fs-1 fw-bolder">Promo Bulan Ini!</h1>
-          <p class="fs-4">
-            Beli "Complete Beef Burger" dan dapatkan "Lemonade Ice Tea" gratis!!
-          </p>
+        <div class="row">
+          <div class="col fw-bold fs-2 mb-3 text-center">Nikmati Promonya!</div>
+        </div>
+      </div>
+
+      <!-- BANNER PROMO -->
+      <div id="banner_promo" class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="/assets/images/promo1.png" class="img-fluid" />
+          </div>
+          <div class="col-md-6 fw-semibold my-lg-auto">
+            <h1 class="fs-1 fw-bolder">Promo Bulan Ini!</h1>
+            <p class="fs-4">
+              Beli "Complete Beef Burger" dan dapatkan "Lemonade Ice Tea"
+              gratis!!
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -76,5 +80,10 @@
     <!-- FOOTER -->
     <div class="footerTemplate"></div>
     <!-- FOOTER -->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
