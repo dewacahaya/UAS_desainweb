@@ -3,7 +3,7 @@
 }
 
 /* NAVBAR */
-.navbar_menu{
+.navbar_menu {
   display: block;
   text-decoration: none;
   transition: 250ms all;
@@ -87,4 +87,10 @@
 /* CART */
 #buy_button {
   background-color: orange;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
